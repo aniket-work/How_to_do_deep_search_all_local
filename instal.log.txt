@@ -1,0 +1,892 @@
+Microsoft Windows [Version 10.0.22631.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\worka>cd C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local>git clone https://github.com/JohnZolton/snorkle.git
+Cloning into 'snorkle'...
+remote: Enumerating objects: 150, done.
+remote: Counting objects: 100% (150/150), done.
+remote: Compressing objects: 100% (99/99), done.
+Receiving objects:  68% (102/150), 3.87 MiB | 7.72 MiB/sremote: Total 150 (delta 47), reused 118 (delta 29),Receiving objects:  76% (114/150), 3.87 MiB | 7.72 MiB/s
+Receiving objects: 100% (150/150), 5.50 MiB | 9.34 MiB/s, done.
+Resolving deltas: 100% (47/47), done.
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local>cd snorkle
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\snorkle>npm install
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/eslint-plugin@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/parser@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/scope-manager@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/type-utils@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/types@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/typescript-estree@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/utils@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@typescript-eslint/visitor-keys@8.2.0',
+npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'next@14.2.7',
+npm WARN EBADENGINE   required: { node: '>=18.17.0' },
+npm WARN EBADENGINE   current: { node: 'v18.15.0', npm: '9.6.2' }
+npm WARN EBADENGINE }
+npm WARN deprecated npmlog@5.0.1: This package is no longer supported.
+npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm WARN deprecated @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm WARN deprecated gauge@3.0.2: This package is no longer supported.
+
+> patense@0.1.0 postinstall
+> prisma generate
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (v5.18.0) to .\node_modules\@prisma\client in 124ms
+
+Start by importing your Prisma Client (See: http://pris.ly/d/importing-client)
+
+Tip: Want to turn off tips and other hints? https://pris.ly/tip-4-nohints
+
+┌─────────────────────────────────────────────────────────┐
+│  Update available 5.18.0 -> 5.19.1                      │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@latest                       │
+│    npm i @prisma/client@latest                          │
+└─────────────────────────────────────────────────────────┘
+
+added 528 packages, and audited 529 packages in 42s
+
+165 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New major version of npm available! 9.6.2 -> 10.8.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3
+npm notice Run npm install -g npm@10.8.3 to update!
+npm notice
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\snorkle>./start_windows.bat --listen --api
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\snorkle>start_windows.bat --listen --api
+'start_windows.bat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\snorkle>cd ../
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local>cd text-generation-webui
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui>./start_windows.bat --listen --api
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui>start_windows.bat --listen --api
+Downloading Miniconda from https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Windows-x86_64.exe to C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui\installer_files\miniconda_installer.exe
+A subdirectory or file C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui\installer_files already exists.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 53.8M  100 53.8M    0     0  52.5M      0  0:00:01  0:00:01 --:--:-- 52.7M
+The checksum verification for miniconda_installer.exe has passed successfully.
+Installing Miniconda to C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui\installer_files\conda
+Miniconda version:
+conda 22.11.1
+Packages to install:
+Retrieving notices: ...working... urllib3\connectionpool.py:1045: InsecureRequestWarning: Unverified HTTPS request is being made to host 'repo.anaconda.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+urllib3\connectionpool.py:1045: InsecureRequestWarning: Unverified HTTPS request is being made to host 'conda.anaconda.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+urllib3\connectionpool.py:1045: InsecureRequestWarning: Unverified HTTPS request is being made to host 'repo.anaconda.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+urllib3\connectionpool.py:1045: InsecureRequestWarning: Unverified HTTPS request is being made to host 'repo.anaconda.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+done
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui\installer_files\env
+
+  added / updated specs:
+    - python=3.11
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bzip2-1.0.8                |       h2466b09_7          54 KB  conda-forge
+    ca-certificates-2024.8.30  |       h56e8100_0         155 KB  conda-forge
+    libexpat-2.6.3             |       he0c23c2_0         136 KB  conda-forge
+    libffi-3.4.2               |       h8ffe710_5          41 KB  conda-forge
+    libsqlite-3.46.1           |       h2466b09_0         856 KB  conda-forge
+    libzlib-1.3.1              |       h2466b09_1          55 KB  conda-forge
+    openssl-3.3.2              |       h2466b09_0         8.0 MB  conda-forge
+    pip-24.2                   |     pyh8b19718_1         1.2 MB  conda-forge
+    python-3.11.10             |hce54a09_0_cpython        17.4 MB  conda-forge
+    setuptools-73.0.1          |     pyhd8ed1ab_0         1.4 MB  conda-forge
+    tk-8.6.13                  |       h5226925_1         3.3 MB  conda-forge
+    tzdata-2024a               |       h8827d51_1         121 KB  conda-forge
+    ucrt-10.0.22621.0          |       h57928b3_0         1.2 MB  conda-forge
+    vc-14.3                    |      h8a93ad2_20          17 KB  conda-forge
+    vc14_runtime-14.40.33810   |      hcc2c482_20         733 KB  conda-forge
+    vs2015_runtime-14.40.33810 |      h3bf8584_20          17 KB  conda-forge
+    wheel-0.44.0               |     pyhd8ed1ab_0          57 KB  conda-forge
+    xz-5.2.6                   |       h8d14728_0         213 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        34.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              conda-forge/win-64::bzip2-1.0.8-h2466b09_7
+  ca-certificates    conda-forge/win-64::ca-certificates-2024.8.30-h56e8100_0
+  libexpat           conda-forge/win-64::libexpat-2.6.3-he0c23c2_0
+  libffi             conda-forge/win-64::libffi-3.4.2-h8ffe710_5
+  libsqlite          conda-forge/win-64::libsqlite-3.46.1-h2466b09_0
+  libzlib            conda-forge/win-64::libzlib-1.3.1-h2466b09_1
+  openssl            conda-forge/win-64::openssl-3.3.2-h2466b09_0
+  pip                conda-forge/noarch::pip-24.2-pyh8b19718_1
+  python             conda-forge/win-64::python-3.11.10-hce54a09_0_cpython
+  setuptools         conda-forge/noarch::setuptools-73.0.1-pyhd8ed1ab_0
+  tk                 conda-forge/win-64::tk-8.6.13-h5226925_1
+  tzdata             conda-forge/noarch::tzdata-2024a-h8827d51_1
+  ucrt               conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_0
+  vc                 conda-forge/win-64::vc-14.3-h8a93ad2_20
+  vc14_runtime       conda-forge/win-64::vc14_runtime-14.40.33810-hcc2c482_20
+  vs2015_runtime     conda-forge/win-64::vs2015_runtime-14.40.33810-h3bf8584_20
+  wheel              conda-forge/noarch::wheel-0.44.0-pyhd8ed1ab_0
+  xz                 conda-forge/win-64::xz-5.2.6-h8d14728_0
+
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui\installer_files\env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+What is your GPU?
+
+A) NVIDIA
+B) AMD (Linux/MacOS only. Requires ROCm SDK 5.6 on Linux)
+C) Apple M Series
+D) Intel Arc (IPEX)
+N) None (I want to run models in CPU mode)
+
+Input> None
+Invalid choice. Please try again.
+Input> N
+
+
+*******************************************************************
+* Adding the --cpu flag to CMD_FLAGS.txt.
+*******************************************************************
+
+
+
+
+*******************************************************************
+* Installing PyTorch.
+*******************************************************************
+
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.3.1
+  latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.7.1
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\worka\PycharmProjects\How_to_do_deep_search_all_local\text-generation-webui\installer_files\env
+
+  added / updated specs:
+    - git
+    - ninja
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    git-2.46.0                 |       h57928b3_0       113.8 MB  conda-forge
+    ninja-1.12.1               |       hc790b64_0         278 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       114.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  git                conda-forge/win-64::git-2.46.0-h57928b3_0
+  ninja              conda-forge/win-64::ninja-1.12.1-hc790b64_0
+
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+Looking in indexes: https://download.pytorch.org/whl/cpu
+Collecting torch==2.2.2
+  Downloading https://download.pytorch.org/whl/cpu/torch-2.2.2%2Bcpu-cp311-cp311-win_amd64.whl (200.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.8/200.8 MB 32.6 MB/s eta 0:00:00
+Collecting torchvision==0.17.2
+  Downloading https://download.pytorch.org/whl/cpu/torchvision-0.17.2%2Bcpu-cp311-cp311-win_amd64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 28.9 MB/s eta 0:00:00
+Collecting torchaudio==2.2.2
+  Downloading https://download.pytorch.org/whl/cpu/torchaudio-2.2.2%2Bcpu-cp311-cp311-win_amd64.whl (2.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 19.2 MB/s eta 0:00:00
+Collecting filelock (from torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/filelock-3.13.1-py3-none-any.whl (11 kB)
+Collecting typing-extensions>=4.8.0 (from torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+Collecting sympy (from torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/sympy-1.12-py3-none-any.whl (5.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.7/5.7 MB 39.1 MB/s eta 0:00:00
+Collecting networkx (from torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/networkx-3.2.1-py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 44.7 MB/s eta 0:00:00
+Collecting jinja2 (from torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/Jinja2-3.1.3-py3-none-any.whl (133 kB)
+Collecting fsspec (from torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/fsspec-2024.2.0-py3-none-any.whl (170 kB)
+Collecting numpy (from torchvision==0.17.2)
+  Downloading https://download.pytorch.org/whl/numpy-1.26.3-cp311-cp311-win_amd64.whl (15.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.8/15.8 MB 43.3 MB/s eta 0:00:00
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision==0.17.2)
+  Downloading https://download.pytorch.org/whl/pillow-10.2.0-cp311-cp311-win_amd64.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 29.9 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0 (from jinja2->torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/MarkupSafe-2.1.5-cp311-cp311-win_amd64.whl (17 kB)
+Collecting mpmath>=0.19 (from sympy->torch==2.2.2)
+  Downloading https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 17.1 MB/s eta 0:00:00
+Installing collected packages: mpmath, typing-extensions, sympy, pillow, numpy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch, torchvision, torchaudio
+Successfully installed MarkupSafe-2.1.5 filelock-3.13.1 fsspec-2024.2.0 jinja2-3.1.3 mpmath-1.3.0 networkx-3.2.1 numpy-1.26.3 pillow-10.2.0 sympy-1.12 torch-2.2.2+cpu torchaudio-2.2.2+cpu torchvision-0.17.2+cpu typing-extensions-4.9.0
+Collecting py-cpuinfo==9.0.0
+  Downloading py_cpuinfo-9.0.0-py3-none-any.whl.metadata (794 bytes)
+Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+Installing collected packages: py-cpuinfo
+Successfully installed py-cpuinfo-9.0.0
+Initialized empty Git repository in C:/Users/worka/PycharmProjects/How_to_do_deep_search_all_local/text-generation-webui/.git/
+remote: Enumerating objects: 19072, done.
+remote: Counting objects: 100% (704/704), done.
+remote: Compressing objects: 100% (346/346), done.
+remote: Total 19072 (delta 521), reused 483 (delta 358), pack-reused 18368 (from 1)
+Receiving objects: 100% (19072/19072), 27.89 MiB | 14.55 MiB/s, done.
+Resolving deltas: 100% (13531/13531), done.
+From https://github.com/oobabooga/text-generation-webui
+ * [new branch]        dependabot/pip/dev/gradio-eq-4.43.star -> origin/dependabot/pip/dev/gradio-eq-4.43.star
+ * [new branch]        dependabot/pip/dev/hqq-0.2.1.post1 -> origin/dependabot/pip/dev/hqq-0.2.1.post1
+ * [new branch]        dependabot/pip/dev/lm-eval-0.4.4 -> origin/dependabot/pip/dev/lm-eval-0.4.4
+ * [new branch]        dependabot/pip/dev/numpy-eq-2.1.star -> origin/dependabot/pip/dev/numpy-eq-2.1.star
+ * [new branch]        dependabot/pip/dev/pydantic-2.9.1 -> origin/dependabot/pip/dev/pydantic-2.9.1
+ * [new branch]        dev        -> origin/dev
+ * [new branch]        main       -> origin/main
+ * [new tag]           1.6.1      -> 1.6.1
+ * [new tag]           installers -> installers
+ * [new tag]           snapshot-2023-10-15 -> snapshot-2023-10-15
+ * [new tag]           snapshot-2023-10-22 -> snapshot-2023-10-22
+ * [new tag]           snapshot-2023-10-29 -> snapshot-2023-10-29
+ * [new tag]           snapshot-2023-11-05 -> snapshot-2023-11-05
+ * [new tag]           snapshot-2023-11-12 -> snapshot-2023-11-12
+ * [new tag]           snapshot-2023-11-19 -> snapshot-2023-11-19
+ * [new tag]           snapshot-2023-11-26 -> snapshot-2023-11-26
+ * [new tag]           snapshot-2023-12-03 -> snapshot-2023-12-03
+ * [new tag]           snapshot-2023-12-10 -> snapshot-2023-12-10
+ * [new tag]           snapshot-2023-12-17 -> snapshot-2023-12-17
+ * [new tag]           snapshot-2023-12-24 -> snapshot-2023-12-24
+ * [new tag]           snapshot-2023-12-31 -> snapshot-2023-12-31
+ * [new tag]           snapshot-2024-01-07 -> snapshot-2024-01-07
+ * [new tag]           snapshot-2024-01-14 -> snapshot-2024-01-14
+ * [new tag]           snapshot-2024-01-21 -> snapshot-2024-01-21
+ * [new tag]           snapshot-2024-01-28 -> snapshot-2024-01-28
+ * [new tag]           snapshot-2024-02-04 -> snapshot-2024-02-04
+ * [new tag]           snapshot-2024-02-11 -> snapshot-2024-02-11
+ * [new tag]           snapshot-2024-02-18 -> snapshot-2024-02-18
+ * [new tag]           snapshot-2024-02-25 -> snapshot-2024-02-25
+ * [new tag]           snapshot-2024-03-03 -> snapshot-2024-03-03
+ * [new tag]           snapshot-2024-03-10 -> snapshot-2024-03-10
+ * [new tag]           snapshot-2024-03-17 -> snapshot-2024-03-17
+ * [new tag]           snapshot-2024-03-24 -> snapshot-2024-03-24
+ * [new tag]           snapshot-2024-03-31 -> snapshot-2024-03-31
+ * [new tag]           snapshot-2024-04-07 -> snapshot-2024-04-07
+ * [new tag]           snapshot-2024-04-14 -> snapshot-2024-04-14
+ * [new tag]           snapshot-2024-04-21 -> snapshot-2024-04-21
+ * [new tag]           snapshot-2024-04-28 -> snapshot-2024-04-28
+ * [new tag]           v1.0       -> v1.0
+ * [new tag]           v1.1       -> v1.1
+ * [new tag]           v1.1.1     -> v1.1.1
+ * [new tag]           v1.10      -> v1.10
+ * [new tag]           v1.10.1    -> v1.10.1
+ * [new tag]           v1.11      -> v1.11
+ * [new tag]           v1.12      -> v1.12
+ * [new tag]           v1.13      -> v1.13
+ * [new tag]           v1.14      -> v1.14
+ * [new tag]           v1.2       -> v1.2
+ * [new tag]           v1.3       -> v1.3
+ * [new tag]           v1.3.1     -> v1.3.1
+ * [new tag]           v1.4       -> v1.4
+ * [new tag]           v1.5       -> v1.5
+ * [new tag]           v1.6       -> v1.6
+ * [new tag]           v1.7       -> v1.7
+ * [new tag]           v1.8       -> v1.8
+ * [new tag]           v1.9       -> v1.9
+ * [new tag]           v1.9.1     -> v1.9.1
+HEAD is now at f98431c7 Apply the change to all requirements (oops)
+branch 'main' set up to track 'origin/main'.
+
+
+*******************************************************************
+* Installing webui requirements from file: requirements_cpu_only.txt
+*******************************************************************
+
+
+TORCH: 2.2.2+cpu
+
+Ignoring llama-cpp-python: markers 'platform_system == "Linux" and platform_machine == "x86_64" and python_version == "3.11"' don't match your environment
+Ignoring llama-cpp-python: markers 'platform_system == "Linux" and platform_machine == "x86_64" and python_version == "3.10"' don't match your environment
+Collecting llama-cpp-python==0.2.89+cpuavx2 (from -r temp_requirements.txt (line 39))
+  Downloading https://github.com/oobabooga/llama-cpp-python-cuBLAS-wheels/releases/download/cpu/llama_cpp_python-0.2.89+cpuavx2-cp311-cp311-win_amd64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 16.3 MB/s eta 0:00:00
+Ignoring llama-cpp-python: markers 'platform_system == "Windows" and python_version == "3.10"' don't match your environment
+Collecting accelerate==0.33.* (from -r temp_requirements.txt (line 1))
+  Downloading accelerate-0.33.0-py3-none-any.whl.metadata (18 kB)
+Collecting colorama (from -r temp_requirements.txt (line 2))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting datasets (from -r temp_requirements.txt (line 3))
+  Downloading datasets-2.21.0-py3-none-any.whl.metadata (21 kB)
+Collecting einops (from -r temp_requirements.txt (line 4))
+  Downloading einops-0.8.0-py3-none-any.whl.metadata (12 kB)
+Collecting fastapi==0.112.4 (from -r temp_requirements.txt (line 5))
+  Downloading fastapi-0.112.4-py3-none-any.whl.metadata (27 kB)
+Collecting gradio==4.26.* (from -r temp_requirements.txt (line 6))
+  Downloading gradio-4.26.0-py3-none-any.whl.metadata (15 kB)
+Collecting hqq==0.1.7.post3 (from -r temp_requirements.txt (line 7))
+  Downloading hqq-0.1.7.post3.tar.gz (50 kB)
+  Preparing metadata (setup.py) ... done
+Collecting jinja2==3.1.4 (from -r temp_requirements.txt (line 8))
+  Using cached jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting lm_eval==0.3.0 (from -r temp_requirements.txt (line 9))
+  Downloading lm_eval-0.3.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting markdown (from -r temp_requirements.txt (line 10))
+  Downloading Markdown-3.7-py3-none-any.whl.metadata (7.0 kB)
+Collecting numba==0.59.* (from -r temp_requirements.txt (line 11))
+  Downloading numba-0.59.1-cp311-cp311-win_amd64.whl.metadata (2.8 kB)
+Requirement already satisfied: numpy==1.26.* in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from -r temp_requirements.txt (line 12)) (1.26.3)
+Collecting numpy==1.26.* (from -r temp_requirements.txt (line 12))
+  Using cached numpy-1.26.4-cp311-cp311-win_amd64.whl.metadata (61 kB)
+Collecting optimum==1.17.* (from -r temp_requirements.txt (line 13))
+  Downloading optimum-1.17.1-py3-none-any.whl.metadata (18 kB)
+Collecting pandas (from -r temp_requirements.txt (line 14))
+  Using cached pandas-2.2.2-cp311-cp311-win_amd64.whl.metadata (19 kB)
+Collecting peft==0.12.* (from -r temp_requirements.txt (line 15))
+  Downloading peft-0.12.0-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: Pillow>=9.5.0 in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from -r temp_requirements.txt (line 16)) (10.2.0)
+Collecting Pillow>=9.5.0 (from -r temp_requirements.txt (line 16))
+  Using cached pillow-10.4.0-cp311-cp311-win_amd64.whl.metadata (9.3 kB)
+Collecting psutil (from -r temp_requirements.txt (line 17))
+  Downloading psutil-6.0.0-cp37-abi3-win_amd64.whl.metadata (22 kB)
+Collecting pydantic==2.8.2 (from -r temp_requirements.txt (line 18))
+  Using cached pydantic-2.8.2-py3-none-any.whl.metadata (125 kB)
+Collecting pyyaml (from -r temp_requirements.txt (line 19))
+  Using cached PyYAML-6.0.2-cp311-cp311-win_amd64.whl.metadata (2.1 kB)
+Collecting requests (from -r temp_requirements.txt (line 20))
+  Using cached requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting rich (from -r temp_requirements.txt (line 21))
+  Downloading rich-13.8.1-py3-none-any.whl.metadata (18 kB)
+Collecting safetensors==0.4.* (from -r temp_requirements.txt (line 22))
+  Downloading safetensors-0.4.5-cp311-none-win_amd64.whl.metadata (3.9 kB)
+Collecting scipy (from -r temp_requirements.txt (line 23))
+  Using cached scipy-1.14.1-cp311-cp311-win_amd64.whl.metadata (60 kB)
+Collecting sentencepiece (from -r temp_requirements.txt (line 24))
+  Using cached sentencepiece-0.2.0-cp311-cp311-win_amd64.whl.metadata (8.3 kB)
+Collecting tensorboard (from -r temp_requirements.txt (line 25))
+  Downloading tensorboard-2.17.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting transformers==4.44.* (from -r temp_requirements.txt (line 26))
+  Using cached transformers-4.44.2-py3-none-any.whl.metadata (43 kB)
+Collecting tqdm (from -r temp_requirements.txt (line 27))
+  Using cached tqdm-4.66.5-py3-none-any.whl.metadata (57 kB)
+Collecting wandb (from -r temp_requirements.txt (line 28))
+  Downloading wandb-0.17.9-py3-none-win_amd64.whl.metadata (9.6 kB)
+Collecting SpeechRecognition==3.10.0 (from -r temp_requirements.txt (line 31))
+  Downloading SpeechRecognition-3.10.0-py2.py3-none-any.whl.metadata (28 kB)
+Collecting flask_cloudflared==0.0.14 (from -r temp_requirements.txt (line 32))
+  Downloading flask_cloudflared-0.0.14-py3-none-any.whl.metadata (4.6 kB)
+Collecting sse-starlette==1.6.5 (from -r temp_requirements.txt (line 33))
+  Downloading sse_starlette-1.6.5-py3-none-any.whl.metadata (6.7 kB)
+Collecting tiktoken (from -r temp_requirements.txt (line 34))
+  Using cached tiktoken-0.7.0-cp311-cp311-win_amd64.whl.metadata (6.8 kB)
+Collecting packaging>=20.0 (from accelerate==0.33.*->-r temp_requirements.txt (line 1))
+  Using cached packaging-24.1-py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: torch>=1.10.0 in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from accelerate==0.33.*->-r temp_requirements.txt (line 1)) (2.2.2+cpu)
+Collecting huggingface-hub>=0.21.0 (from accelerate==0.33.*->-r temp_requirements.txt (line 1))
+  Using cached huggingface_hub-0.24.6-py3-none-any.whl.metadata (13 kB)
+Collecting starlette<0.39.0,>=0.37.2 (from fastapi==0.112.4->-r temp_requirements.txt (line 5))
+  Using cached starlette-0.38.5-py3-none-any.whl.metadata (6.0 kB)
+Requirement already satisfied: typing-extensions>=4.8.0 in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from fastapi==0.112.4->-r temp_requirements.txt (line 5)) (4.9.0)
+Collecting aiofiles<24.0,>=22.0 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached aiofiles-23.2.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting altair<6.0,>=4.2.0 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading altair-5.4.1-py3-none-any.whl.metadata (9.4 kB)
+Collecting ffmpy (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading ffmpy-0.4.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting gradio-client==0.15.1 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading gradio_client-0.15.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting httpx>=0.24.1 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached httpx-0.27.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting importlib-resources<7.0,>=1.3 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading importlib_resources-6.4.5-py3-none-any.whl.metadata (4.0 kB)
+Requirement already satisfied: markupsafe~=2.0 in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from gradio==4.26.*->-r temp_requirements.txt (line 6)) (2.1.5)
+Collecting matplotlib~=3.0 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading matplotlib-3.9.2-cp311-cp311-win_amd64.whl.metadata (11 kB)
+Collecting orjson~=3.0 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading orjson-3.10.7-cp311-none-win_amd64.whl.metadata (51 kB)
+Collecting pydub (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting python-multipart>=0.0.9 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached python_multipart-0.0.9-py3-none-any.whl.metadata (2.5 kB)
+Collecting ruff>=0.2.2 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading ruff-0.6.4-py3-none-win_amd64.whl.metadata (25 kB)
+Collecting semantic-version~=2.0 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Collecting tomlkit==0.12.0 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading tomlkit-0.12.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting typer<1.0,>=0.9 (from typer[all]<1.0,>=0.9; sys_platform != "emscripten"->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached typer-0.12.5-py3-none-any.whl.metadata (15 kB)
+Collecting uvicorn>=0.14.0 (from gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached uvicorn-0.30.6-py3-none-any.whl.metadata (6.6 kB)
+Collecting termcolor (from hqq==0.1.7.post3->-r temp_requirements.txt (line 7))
+  Using cached termcolor-2.4.0-py3-none-any.whl.metadata (6.1 kB)
+Collecting jsonlines (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached jsonlines-4.0.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting numexpr (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading numexpr-2.10.1-cp311-cp311-win_amd64.whl.metadata (1.3 kB)
+Collecting openai>=0.6.4 (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading openai-1.44.1-py3-none-any.whl.metadata (22 kB)
+Collecting pybind11>=2.6.2 (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading pybind11-2.13.5-py3-none-any.whl.metadata (9.5 kB)
+Collecting pycountry (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading pycountry-24.6.1-py3-none-any.whl.metadata (12 kB)
+Collecting pytablewriter (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading pytablewriter-1.2.0-py3-none-any.whl.metadata (37 kB)
+Collecting rouge-score>=0.0.4 (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading rouge_score-0.1.2.tar.gz (17 kB)
+  Preparing metadata (setup.py) ... done
+Collecting sacrebleu==1.5.0 (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading sacrebleu-1.5.0-py3-none-any.whl.metadata (1.3 kB)
+Collecting scikit-learn>=0.24.1 (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached scikit_learn-1.5.1-cp311-cp311-win_amd64.whl.metadata (12 kB)
+Collecting sqlitedict (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading sqlitedict-2.1.0.tar.gz (21 kB)
+  Preparing metadata (setup.py) ... done
+Collecting tqdm-multiprocess (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading tqdm_multiprocess-0.0.11-py3-none-any.whl.metadata (5.7 kB)
+Collecting zstandard (from lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading zstandard-0.23.0-cp311-cp311-win_amd64.whl.metadata (3.0 kB)
+Collecting llvmlite<0.43,>=0.42.0dev0 (from numba==0.59.*->-r temp_requirements.txt (line 11))
+  Downloading llvmlite-0.42.0-cp311-cp311-win_amd64.whl.metadata (4.9 kB)
+Collecting coloredlogs (from optimum==1.17.*->-r temp_requirements.txt (line 13))
+  Using cached coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: sympy in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from optimum==1.17.*->-r temp_requirements.txt (line 13)) (1.12)
+Collecting annotated-types>=0.4.0 (from pydantic==2.8.2->-r temp_requirements.txt (line 18))
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.20.1 (from pydantic==2.8.2->-r temp_requirements.txt (line 18))
+  Using cached pydantic_core-2.20.1-cp311-none-win_amd64.whl.metadata (6.7 kB)
+Requirement already satisfied: filelock in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from transformers==4.44.*->-r temp_requirements.txt (line 26)) (3.13.1)
+Collecting regex!=2019.12.17 (from transformers==4.44.*->-r temp_requirements.txt (line 26))
+  Using cached regex-2024.7.24-cp311-cp311-win_amd64.whl.metadata (41 kB)
+Collecting tokenizers<0.20,>=0.19 (from transformers==4.44.*->-r temp_requirements.txt (line 26))
+  Using cached tokenizers-0.19.1-cp311-none-win_amd64.whl.metadata (6.9 kB)
+Collecting Flask>=0.8 (from flask_cloudflared==0.0.14->-r temp_requirements.txt (line 32))
+  Downloading flask-3.0.3-py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: fsspec in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from gradio-client==0.15.1->gradio==4.26.*->-r temp_requirements.txt (line 6)) (2024.2.0)
+Collecting websockets<12.0,>=10.0 (from gradio-client==0.15.1->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading websockets-11.0.3-cp311-cp311-win_amd64.whl.metadata (6.8 kB)
+Collecting portalocker (from sacrebleu==1.5.0->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading portalocker-2.10.1-py3-none-any.whl.metadata (8.5 kB)
+Collecting pyarrow>=15.0.0 (from datasets->-r temp_requirements.txt (line 3))
+  Using cached pyarrow-17.0.0-cp311-cp311-win_amd64.whl.metadata (3.4 kB)
+Collecting dill<0.3.9,>=0.3.0 (from datasets->-r temp_requirements.txt (line 3))
+  Downloading dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+Collecting xxhash (from datasets->-r temp_requirements.txt (line 3))
+  Downloading xxhash-3.5.0-cp311-cp311-win_amd64.whl.metadata (13 kB)
+Collecting multiprocess (from datasets->-r temp_requirements.txt (line 3))
+  Downloading multiprocess-0.70.16-py311-none-any.whl.metadata (7.2 kB)
+Collecting aiohttp (from datasets->-r temp_requirements.txt (line 3))
+  Using cached aiohttp-3.10.5-cp311-cp311-win_amd64.whl.metadata (7.8 kB)
+Collecting python-dateutil>=2.8.2 (from pandas->-r temp_requirements.txt (line 14))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas->-r temp_requirements.txt (line 14))
+  Using cached pytz-2024.1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas->-r temp_requirements.txt (line 14))
+  Using cached tzdata-2024.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting charset-normalizer<4,>=2 (from requests->-r temp_requirements.txt (line 20))
+  Using cached charset_normalizer-3.3.2-cp311-cp311-win_amd64.whl.metadata (34 kB)
+Collecting idna<4,>=2.5 (from requests->-r temp_requirements.txt (line 20))
+  Using cached idna-3.8-py3-none-any.whl.metadata (9.9 kB)
+Collecting urllib3<3,>=1.21.1 (from requests->-r temp_requirements.txt (line 20))
+  Using cached urllib3-2.2.2-py3-none-any.whl.metadata (6.4 kB)
+Collecting certifi>=2017.4.17 (from requests->-r temp_requirements.txt (line 20))
+  Using cached certifi-2024.8.30-py3-none-any.whl.metadata (2.2 kB)
+Collecting markdown-it-py>=2.2.0 (from rich->-r temp_requirements.txt (line 21))
+  Using cached markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich->-r temp_requirements.txt (line 21))
+  Using cached pygments-2.18.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting absl-py>=0.4 (from tensorboard->-r temp_requirements.txt (line 25))
+  Using cached absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting grpcio>=1.48.2 (from tensorboard->-r temp_requirements.txt (line 25))
+  Using cached grpcio-1.66.1-cp311-cp311-win_amd64.whl.metadata (4.0 kB)
+Collecting protobuf!=4.24.0,>=3.19.6 (from tensorboard->-r temp_requirements.txt (line 25))
+  Using cached protobuf-5.28.0-cp310-abi3-win_amd64.whl.metadata (592 bytes)
+Requirement already satisfied: setuptools>=41.0.0 in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from tensorboard->-r temp_requirements.txt (line 25)) (73.0.1)
+Collecting six>1.9 (from tensorboard->-r temp_requirements.txt (line 25))
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard->-r temp_requirements.txt (line 25))
+  Using cached tensorboard_data_server-0.7.2-py3-none-any.whl.metadata (1.1 kB)
+Collecting werkzeug>=1.0.1 (from tensorboard->-r temp_requirements.txt (line 25))
+  Downloading werkzeug-3.0.4-py3-none-any.whl.metadata (3.7 kB)
+Collecting click!=8.0.0,>=7.1 (from wandb->-r temp_requirements.txt (line 28))
+  Using cached click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting docker-pycreds>=0.4.0 (from wandb->-r temp_requirements.txt (line 28))
+  Downloading docker_pycreds-0.4.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting gitpython!=3.1.29,>=1.0.0 (from wandb->-r temp_requirements.txt (line 28))
+  Using cached GitPython-3.1.43-py3-none-any.whl.metadata (13 kB)
+Collecting platformdirs (from wandb->-r temp_requirements.txt (line 28))
+  Downloading platformdirs-4.3.2-py3-none-any.whl.metadata (11 kB)
+Collecting sentry-sdk>=1.0.0 (from wandb->-r temp_requirements.txt (line 28))
+  Downloading sentry_sdk-2.14.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Collecting setproctitle (from wandb->-r temp_requirements.txt (line 28))
+  Downloading setproctitle-1.3.3-cp311-cp311-win_amd64.whl.metadata (10 kB)
+Collecting diskcache>=5.6.1 (from llama-cpp-python==0.2.89+cpuavx2->-r temp_requirements.txt (line 39))
+  Using cached diskcache-5.6.3-py3-none-any.whl.metadata (20 kB)
+Collecting jsonschema>=3.0 (from altair<6.0,>=4.2.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting narwhals>=1.5.2 (from altair<6.0,>=4.2.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading narwhals-1.6.4-py3-none-any.whl.metadata (5.8 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi==0.112.4->-r temp_requirements.txt (line 5))
+  Using cached typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting itsdangerous>=2.1.2 (from Flask>=0.8->flask_cloudflared==0.0.14->-r temp_requirements.txt (line 32))
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting blinker>=1.6.2 (from Flask>=0.8->flask_cloudflared==0.0.14->-r temp_requirements.txt (line 32))
+  Downloading blinker-1.8.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting aiohappyeyeballs>=2.3.0 (from aiohttp->datasets->-r temp_requirements.txt (line 3))
+  Using cached aiohappyeyeballs-2.4.0-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp->datasets->-r temp_requirements.txt (line 3))
+  Using cached aiosignal-1.3.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting attrs>=17.3.0 (from aiohttp->datasets->-r temp_requirements.txt (line 3))
+  Using cached attrs-24.2.0-py3-none-any.whl.metadata (11 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp->datasets->-r temp_requirements.txt (line 3))
+  Using cached frozenlist-1.4.1-cp311-cp311-win_amd64.whl.metadata (12 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp->datasets->-r temp_requirements.txt (line 3))
+  Downloading multidict-6.1.0-cp311-cp311-win_amd64.whl.metadata (5.1 kB)
+Collecting yarl<2.0,>=1.0 (from aiohttp->datasets->-r temp_requirements.txt (line 3))
+  Downloading yarl-1.11.1-cp311-cp311-win_amd64.whl.metadata (49 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.29,>=1.0.0->wandb->-r temp_requirements.txt (line 28))
+  Using cached gitdb-4.0.11-py3-none-any.whl.metadata (1.2 kB)
+Collecting anyio (from httpx>=0.24.1->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached anyio-4.4.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting httpcore==1.* (from httpx>=0.24.1->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached httpcore-1.0.5-py3-none-any.whl.metadata (20 kB)
+Collecting sniffio (from httpx>=0.24.1->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting h11<0.15,>=0.13 (from httpcore==1.*->httpx>=0.24.1->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->-r temp_requirements.txt (line 21))
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting contourpy>=1.0.1 (from matplotlib~=3.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading contourpy-1.3.0-cp311-cp311-win_amd64.whl.metadata (5.4 kB)
+Collecting cycler>=0.10 (from matplotlib~=3.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib~=3.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading fonttools-4.53.1-cp311-cp311-win_amd64.whl.metadata (165 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib~=3.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading kiwisolver-1.4.7-cp311-cp311-win_amd64.whl.metadata (6.4 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib~=3.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached pyparsing-3.1.4-py3-none-any.whl.metadata (5.1 kB)
+Collecting distro<2,>=1.7.0 (from openai>=0.6.4->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting jiter<1,>=0.4.0 (from openai>=0.6.4->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached jiter-0.5.0-cp311-none-win_amd64.whl.metadata (3.7 kB)
+Collecting nltk (from rouge-score>=0.0.4->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached nltk-3.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting joblib>=1.2.0 (from scikit-learn>=0.24.1->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn>=0.24.1->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: networkx in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from torch>=1.10.0->accelerate==0.33.*->-r temp_requirements.txt (line 1)) (3.2.1)
+Collecting shellingham>=1.3.0 (from typer<1.0,>=0.9->typer[all]<1.0,>=0.9; sys_platform != "emscripten"->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+WARNING: typer 0.12.5 does not provide the extra 'all'
+Collecting humanfriendly>=9.1 (from coloredlogs->optimum==1.17.*->-r temp_requirements.txt (line 13))
+  Using cached humanfriendly-10.0-py2.py3-none-any.whl.metadata (9.2 kB)
+Collecting DataProperty<2,>=1.0.1 (from pytablewriter->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading DataProperty-1.0.1-py3-none-any.whl.metadata (11 kB)
+Collecting mbstrdecoder<2,>=1.0.0 (from pytablewriter->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading mbstrdecoder-1.1.3-py3-none-any.whl.metadata (4.0 kB)
+Collecting pathvalidate<4,>=2.3.0 (from pytablewriter->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading pathvalidate-3.2.1-py3-none-any.whl.metadata (12 kB)
+Collecting tabledata<2,>=1.3.1 (from pytablewriter->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading tabledata-1.3.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting tcolorpy<1,>=0.0.5 (from pytablewriter->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading tcolorpy-0.1.6-py3-none-any.whl.metadata (6.4 kB)
+Collecting typepy<2,>=1.3.2 (from typepy[datetime]<2,>=1.3.2->pytablewriter->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Downloading typepy-1.3.2-py3-none-any.whl.metadata (9.3 kB)
+Requirement already satisfied: mpmath>=0.19 in c:\users\worka\pycharmprojects\how_to_do_deep_search_all_local\text-generation-webui\installer_files\env\lib\site-packages (from sympy->optimum==1.17.*->-r temp_requirements.txt (line 13)) (1.3.0)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb->-r temp_requirements.txt (line 28))
+  Using cached smmap-5.0.1-py3-none-any.whl.metadata (4.3 kB)
+Collecting pyreadline3 (from humanfriendly>=9.1->coloredlogs->optimum==1.17.*->-r temp_requirements.txt (line 13))
+  Using cached pyreadline3-3.4.1-py3-none-any.whl.metadata (2.0 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading referencing-0.35.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio==4.26.*->-r temp_requirements.txt (line 6))
+  Downloading rpds_py-0.20.0-cp311-none-win_amd64.whl.metadata (4.2 kB)
+Collecting chardet<6,>=3.0.4 (from mbstrdecoder<2,>=1.0.0->pytablewriter->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached chardet-5.2.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting pywin32>=226 (from portalocker->sacrebleu==1.5.0->lm_eval==0.3.0->-r temp_requirements.txt (line 9))
+  Using cached pywin32-306-cp311-cp311-win_amd64.whl.metadata (6.5 kB)
+Downloading accelerate-0.33.0-py3-none-any.whl (315 kB)
+Downloading fastapi-0.112.4-py3-none-any.whl (93 kB)
+Downloading gradio-4.26.0-py3-none-any.whl (17.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.1/17.1 MB 15.2 MB/s eta 0:00:00
+Using cached jinja2-3.1.4-py3-none-any.whl (133 kB)
+Downloading lm_eval-0.3.0-py3-none-any.whl (178 kB)
+Downloading numba-0.59.1-cp311-cp311-win_amd64.whl (2.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 15.3 MB/s eta 0:00:00
+Using cached numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+Downloading optimum-1.17.1-py3-none-any.whl (407 kB)
+Downloading peft-0.12.0-py3-none-any.whl (296 kB)
+Using cached pydantic-2.8.2-py3-none-any.whl (423 kB)
+Downloading safetensors-0.4.5-cp311-none-win_amd64.whl (285 kB)
+Using cached transformers-4.44.2-py3-none-any.whl (9.5 MB)
+Downloading SpeechRecognition-3.10.0-py2.py3-none-any.whl (32.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 32.8/32.8 MB 15.1 MB/s eta 0:00:00
+Downloading flask_cloudflared-0.0.14-py3-none-any.whl (6.4 kB)
+Downloading sse_starlette-1.6.5-py3-none-any.whl (9.6 kB)
+Downloading gradio_client-0.15.1-py3-none-any.whl (313 kB)
+Using cached pydantic_core-2.20.1-cp311-none-win_amd64.whl (1.9 MB)
+Downloading sacrebleu-1.5.0-py3-none-any.whl (65 kB)
+Downloading tomlkit-0.12.0-py3-none-any.whl (37 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading datasets-2.21.0-py3-none-any.whl (527 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 527.3/527.3 kB 8.6 MB/s eta 0:00:00
+Downloading einops-0.8.0-py3-none-any.whl (43 kB)
+Downloading Markdown-3.7-py3-none-any.whl (106 kB)
+Using cached pandas-2.2.2-cp311-cp311-win_amd64.whl (11.6 MB)
+Using cached pillow-10.4.0-cp311-cp311-win_amd64.whl (2.6 MB)
+Downloading psutil-6.0.0-cp37-abi3-win_amd64.whl (257 kB)
+Using cached PyYAML-6.0.2-cp311-cp311-win_amd64.whl (161 kB)
+Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+Downloading rich-13.8.1-py3-none-any.whl (241 kB)
+Using cached scipy-1.14.1-cp311-cp311-win_amd64.whl (44.8 MB)
+Using cached sentencepiece-0.2.0-cp311-cp311-win_amd64.whl (991 kB)
+Downloading tensorboard-2.17.1-py3-none-any.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 14.6 MB/s eta 0:00:00
+Using cached tqdm-4.66.5-py3-none-any.whl (78 kB)
+Downloading wandb-0.17.9-py3-none-win_amd64.whl (6.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 16.1 MB/s eta 0:00:00
+Using cached tiktoken-0.7.0-cp311-cp311-win_amd64.whl (799 kB)
+Using cached absl_py-2.1.0-py3-none-any.whl (133 kB)
+Using cached aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Downloading altair-5.4.1-py3-none-any.whl (658 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 658.1/658.1 kB 12.4 MB/s eta 0:00:00
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Using cached certifi-2024.8.30-py3-none-any.whl (167 kB)
+Using cached charset_normalizer-3.3.2-cp311-cp311-win_amd64.whl (99 kB)
+Using cached click-8.1.7-py3-none-any.whl (97 kB)
+Downloading dill-0.3.8-py3-none-any.whl (116 kB)
+Using cached diskcache-5.6.3-py3-none-any.whl (45 kB)
+Downloading docker_pycreds-0.4.0-py2.py3-none-any.whl (9.0 kB)
+Downloading flask-3.0.3-py3-none-any.whl (101 kB)
+Using cached aiohttp-3.10.5-cp311-cp311-win_amd64.whl (379 kB)
+Using cached GitPython-3.1.43-py3-none-any.whl (207 kB)
+Using cached grpcio-1.66.1-cp311-cp311-win_amd64.whl (4.3 MB)
+Using cached httpx-0.27.2-py3-none-any.whl (76 kB)
+Using cached httpcore-1.0.5-py3-none-any.whl (77 kB)
+Using cached huggingface_hub-0.24.6-py3-none-any.whl (417 kB)
+Using cached idna-3.8-py3-none-any.whl (66 kB)
+Downloading importlib_resources-6.4.5-py3-none-any.whl (36 kB)
+Downloading llvmlite-0.42.0-cp311-cp311-win_amd64.whl (28.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 28.1/28.1 MB 9.3 MB/s eta 0:00:00
+Using cached markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Downloading matplotlib-3.9.2-cp311-cp311-win_amd64.whl (7.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.8/7.8 MB 9.5 MB/s eta 0:00:00
+Downloading openai-1.44.1-py3-none-any.whl (373 kB)
+Downloading orjson-3.10.7-cp311-none-win_amd64.whl (137 kB)
+Using cached packaging-24.1-py3-none-any.whl (53 kB)
+Downloading protobuf-5.28.0-cp310-abi3-win_amd64.whl (431 kB)
+Using cached pyarrow-17.0.0-cp311-cp311-win_amd64.whl (25.2 MB)
+Downloading pybind11-2.13.5-py3-none-any.whl (240 kB)
+Using cached pygments-2.18.0-py3-none-any.whl (1.2 MB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached python_multipart-0.0.9-py3-none-any.whl (22 kB)
+Using cached pytz-2024.1-py2.py3-none-any.whl (505 kB)
+Using cached regex-2024.7.24-cp311-cp311-win_amd64.whl (269 kB)
+Downloading ruff-0.6.4-py3-none-win_amd64.whl (8.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.8/8.8 MB 10.5 MB/s eta 0:00:00
+Using cached scikit_learn-1.5.1-cp311-cp311-win_amd64.whl (11.0 MB)
+Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Downloading sentry_sdk-2.14.0-py2.py3-none-any.whl (311 kB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Using cached starlette-0.38.5-py3-none-any.whl (71 kB)
+Using cached tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+Using cached tokenizers-0.19.1-cp311-none-win_amd64.whl (2.2 MB)
+Using cached typer-0.12.5-py3-none-any.whl (47 kB)
+Using cached typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Using cached tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+Using cached urllib3-2.2.2-py3-none-any.whl (121 kB)
+Using cached uvicorn-0.30.6-py3-none-any.whl (62 kB)
+Downloading werkzeug-3.0.4-py3-none-any.whl (227 kB)
+Using cached coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Downloading ffmpy-0.4.0-py3-none-any.whl (5.8 kB)
+Using cached jsonlines-4.0.0-py3-none-any.whl (8.7 kB)
+Downloading multiprocess-0.70.16-py311-none-any.whl (143 kB)
+Downloading numexpr-2.10.1-cp311-cp311-win_amd64.whl (141 kB)
+Downloading platformdirs-4.3.2-py3-none-any.whl (18 kB)
+Downloading pycountry-24.6.1-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 7.9 MB/s eta 0:00:00
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Downloading pytablewriter-1.2.0-py3-none-any.whl (111 kB)
+Downloading setproctitle-1.3.3-cp311-cp311-win_amd64.whl (11 kB)
+Using cached termcolor-2.4.0-py3-none-any.whl (7.7 kB)
+Downloading tqdm_multiprocess-0.0.11-py3-none-any.whl (9.8 kB)
+Downloading xxhash-3.5.0-cp311-cp311-win_amd64.whl (30 kB)
+Downloading zstandard-0.23.0-cp311-cp311-win_amd64.whl (495 kB)
+Using cached aiohappyeyeballs-2.4.0-py3-none-any.whl (12 kB)
+Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Using cached anyio-4.4.0-py3-none-any.whl (86 kB)
+Using cached attrs-24.2.0-py3-none-any.whl (63 kB)
+Downloading blinker-1.8.2-py3-none-any.whl (9.5 kB)
+Downloading contourpy-1.3.0-cp311-cp311-win_amd64.whl (217 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading DataProperty-1.0.1-py3-none-any.whl (27 kB)
+Using cached distro-1.9.0-py3-none-any.whl (20 kB)
+Downloading fonttools-4.53.1-cp311-cp311-win_amd64.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 7.8 MB/s eta 0:00:00
+Using cached frozenlist-1.4.1-cp311-cp311-win_amd64.whl (50 kB)
+Using cached gitdb-4.0.11-py3-none-any.whl (62 kB)
+Using cached h11-0.14.0-py3-none-any.whl (58 kB)
+Using cached humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached jiter-0.5.0-cp311-none-win_amd64.whl (191 kB)
+Using cached joblib-1.4.2-py3-none-any.whl (301 kB)
+Downloading jsonschema-4.23.0-py3-none-any.whl (88 kB)
+Downloading kiwisolver-1.4.7-cp311-cp311-win_amd64.whl (56 kB)
+Downloading mbstrdecoder-1.1.3-py3-none-any.whl (7.8 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading multidict-6.1.0-cp311-cp311-win_amd64.whl (28 kB)
+Downloading narwhals-1.6.4-py3-none-any.whl (163 kB)
+Downloading pathvalidate-3.2.1-py3-none-any.whl (23 kB)
+Using cached pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading tabledata-1.3.3-py3-none-any.whl (11 kB)
+Downloading tcolorpy-0.1.6-py3-none-any.whl (8.1 kB)
+Using cached threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Downloading typepy-1.3.2-py3-none-any.whl (31 kB)
+Downloading websockets-11.0.3-cp311-cp311-win_amd64.whl (124 kB)
+Downloading yarl-1.11.1-cp311-cp311-win_amd64.whl (110 kB)
+Using cached nltk-3.9.1-py3-none-any.whl (1.5 MB)
+Downloading portalocker-2.10.1-py3-none-any.whl (18 kB)
+Using cached chardet-5.2.0-py3-none-any.whl (199 kB)
+Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Using cached pywin32-306-cp311-cp311-win_amd64.whl (9.2 MB)
+Downloading referencing-0.35.1-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.20.0-cp311-none-win_amd64.whl (213 kB)
+Using cached smmap-5.0.1-py3-none-any.whl (24 kB)
+Using cached pyreadline3-3.4.1-py3-none-any.whl (95 kB)
+Building wheels for collected packages: hqq, rouge-score, sqlitedict
+  Building wheel for hqq (setup.py) ... done
+  Created wheel for hqq: filename=hqq-0.1.7.post3-py3-none-any.whl size=59180 sha256=19cc83ba07a1367647d93a5054344a6d480d2d5be03238b127327417f9edacbf
+  Stored in directory: c:\users\worka\appdata\local\pip\cache\wheels\26\81\bd\c13e1177aba48bfe34d6ba60b9d47b02e52ee742e9f40e8e19
+  Building wheel for rouge-score (setup.py) ... done
+  Created wheel for rouge-score: filename=rouge_score-0.1.2-py3-none-any.whl size=24971 sha256=95621488861e41fd0c4712d76462cae9aaa6d4ef5afef18475ca0ac0503d3e99
+  Stored in directory: c:\users\worka\appdata\local\pip\cache\wheels\1e\19\43\8a442dc83660ca25e163e1bd1f89919284ab0d0c1475475148
+  Building wheel for sqlitedict (setup.py) ... done
+  Created wheel for sqlitedict: filename=sqlitedict-2.1.0-py3-none-any.whl size=16903 sha256=e773b37fd504dbfc85a0e877f6712109ca6baaee0226f13887852e75f6f4a3c3
+  Stored in directory: c:\users\worka\appdata\local\pip\cache\wheels\73\63\89\7210274f9b7fb033b8f22671f64c0e0b55083d30c3c046a3ff
+Successfully built hqq rouge-score sqlitedict
+Installing collected packages: sqlitedict, sentencepiece, pywin32, pytz, pyreadline3, pydub, zstandard, xxhash, werkzeug, websockets, urllib3, tzdata, typing-extensions, tomlkit, threadpoolctl, termcolor, tensorboard-data-server, tcolorpy, sniffio, smmap, six, shellingham, setproctitle, semantic-version, safetensors, ruff, rpds-py, regex, pyyaml, python-multipart, pyparsing, pygments, pycountry, pybind11, psutil, protobuf, portalocker, platformdirs, Pillow, pathvalidate, packaging, orjson, numpy, narwhals, multidict, mdurl, markdown, llvmlite, kiwisolver, joblib, jiter, jinja2, itsdangerous, importlib-resources, idna, humanfriendly, h11, grpcio, frozenlist, fonttools, ffmpy, einops, distro, diskcache, dill, cycler, colorama, charset-normalizer, chardet, certifi, blinker, attrs, annotated-types, aiohappyeyeballs, aiofiles, absl-py, yarl, tqdm, tensorboard, sentry-sdk, scipy, sacrebleu, requests, referencing, python-dateutil, pydantic-core, pyarrow, numexpr, numba, multiprocess, mbstrdecoder, markdown-it-py, llama-cpp-python, jsonlines, httpcore, gitdb, docker-pycreds, contourpy, coloredlogs, click, anyio, aiosignal, uvicorn, typepy, tqdm-multiprocess, tiktoken, starlette, SpeechRecognition, scikit-learn, rich, pydantic, pandas, nltk, matplotlib, jsonschema-specifications, huggingface-hub, httpx, gitpython, Flask, aiohttp, wandb, typer, tokenizers, sse-starlette, rouge-score, openai, jsonschema, gradio-client, flask_cloudflared, fastapi, accelerate, transformers, datasets, DataProperty, altair, tabledata, peft, hqq, gradio, pytablewriter, optimum, lm_eval
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.9.0
+    Uninstalling typing_extensions-4.9.0:
+      Successfully uninstalled typing_extensions-4.9.0
+  Attempting uninstall: Pillow
+    Found existing installation: pillow 10.2.0
+    Uninstalling pillow-10.2.0:
+      Successfully uninstalled pillow-10.2.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.26.3
+    Uninstalling numpy-1.26.3:
+      Successfully uninstalled numpy-1.26.3
+  Attempting uninstall: jinja2
+    Found existing installation: Jinja2 3.1.3
+    Uninstalling Jinja2-3.1.3:
+      Successfully uninstalled Jinja2-3.1.3
+Successfully installed DataProperty-1.0.1 Flask-3.0.3 Pillow-10.4.0 SpeechRecognition-3.10.0 absl-py-2.1.0 accelerate-0.33.0 aiofiles-23.2.1 aiohappyeyeballs-2.4.0 aiohttp-3.10.5 aiosignal-1.3.1 altair-5.4.1 annotated-types-0.7.0 anyio-4.4.0 attrs-24.2.0 blinker-1.8.2 certifi-2024.8.30 chardet-5.2.0 charset-normalizer-3.3.2 click-8.1.7 colorama-0.4.6 coloredlogs-15.0.1 contourpy-1.3.0 cycler-0.12.1 datasets-2.21.0 dill-0.3.8 diskcache-5.6.3 distro-1.9.0 docker-pycreds-0.4.0 einops-0.8.0 fastapi-0.112.4 ffmpy-0.4.0 flask_cloudflared-0.0.14 fonttools-4.53.1 frozenlist-1.4.1 gitdb-4.0.11 gitpython-3.1.43 gradio-4.26.0 gradio-client-0.15.1 grpcio-1.66.1 h11-0.14.0 hqq-0.1.7.post3 httpcore-1.0.5 httpx-0.27.2 huggingface-hub-0.24.6 humanfriendly-10.0 idna-3.8 importlib-resources-6.4.5 itsdangerous-2.2.0 jinja2-3.1.4 jiter-0.5.0 joblib-1.4.2 jsonlines-4.0.0 jsonschema-4.23.0 jsonschema-specifications-2023.12.1 kiwisolver-1.4.7 llama-cpp-python-0.2.89+cpuavx2 llvmlite-0.42.0 lm_eval-0.3.0 markdown-3.7 markdown-it-py-3.0.0 matplotlib-3.9.2 mbstrdecoder-1.1.3 mdurl-0.1.2 multidict-6.1.0 multiprocess-0.70.16 narwhals-1.6.4 nltk-3.9.1 numba-0.59.1 numexpr-2.10.1 numpy-1.26.4 openai-1.44.1 optimum-1.17.1 orjson-3.10.7 packaging-24.1 pandas-2.2.2 pathvalidate-3.2.1 peft-0.12.0 platformdirs-4.3.2 portalocker-2.10.1 protobuf-5.28.0 psutil-6.0.0 pyarrow-17.0.0 pybind11-2.13.5 pycountry-24.6.1 pydantic-2.8.2 pydantic-core-2.20.1 pydub-0.25.1 pygments-2.18.0 pyparsing-3.1.4 pyreadline3-3.4.1 pytablewriter-1.2.0 python-dateutil-2.9.0.post0 python-multipart-0.0.9 pytz-2024.1 pywin32-306 pyyaml-6.0.2 referencing-0.35.1 regex-2024.7.24 requests-2.32.3 rich-13.8.1 rouge-score-0.1.2 rpds-py-0.20.0 ruff-0.6.4 sacrebleu-1.5.0 safetensors-0.4.5 scikit-learn-1.5.1 scipy-1.14.1 semantic-version-2.10.0 sentencepiece-0.2.0 sentry-sdk-2.14.0 setproctitle-1.3.3 shellingham-1.5.4 six-1.16.0 smmap-5.0.1 sniffio-1.3.1 sqlitedict-2.1.0 sse-starlette-1.6.5 starlette-0.38.5 tabledata-1.3.3 tcolorpy-0.1.6 tensorboard-2.17.1 tensorboard-data-server-0.7.2 termcolor-2.4.0 threadpoolctl-3.5.0 tiktoken-0.7.0 tokenizers-0.19.1 tomlkit-0.12.0 tqdm-4.66.5 tqdm-multiprocess-0.0.11 transformers-4.44.2 typepy-1.3.2 typer-0.12.5 typing-extensions-4.12.2 tzdata-2024.1 urllib3-2.2.2 uvicorn-0.30.6 wandb-0.17.9 websockets-11.0.3 werkzeug-3.0.4 xxhash-3.5.0 yarl-1.11.1 zstandard-0.23.0
+Will remove 68 (185.9 MB) tarball(s).
+Will remove 1 index cache(s).
+Will remove 3 (132 KB) package(s).
+There are no tempfile(s) to remove.
+Files removed: 8743e(s) to remove.
+
+
+*******************************************************************
+* You haven't downloaded any model yet.
+* Once the web UI launches, head over to the "Model" tab and download one.
+*******************************************************************
